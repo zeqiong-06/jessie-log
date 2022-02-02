@@ -1,1 +1,2 @@
-# jessie-log
+# Lil'Log
+Lilian's Blog

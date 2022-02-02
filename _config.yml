@@ -1,0 +1,23 @@
+title: Jessie'Log
+name: "Jessie's Blog"
+author: Zeqiong Wu
+#twitter_username: lilianweng
+baseurl: "/jessie-log"
+description: Document my learning notes.
+profile_url: "http://zeqiong-06.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+exclude:
+  - Gemfile
+  - Gemfile.lock
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+  toc_levels: 1..3
